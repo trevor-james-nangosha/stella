@@ -1,3 +1,5 @@
 # ninja log v5
-0	296	7125140261788915	CMakeFiles/stella.dir/main.c.obj	d4cd2dfe96e1cfed
-297	1074	7125140269449565	stella.exe	b53842fd2625fe7d
+2	75	7125802449612069	CMakeFiles/stella.dir/main.c.obj	d4cd2dfe96e1cfed
+76	179	7125802450620761	stella.exe	d79db07a814401f4
+11	634	7125793615316593	CMakeFiles/stella.dir/plain.c.obj	936311deea430ad4
+7	635	7125793615316593	CMakeFiles/stella.dir/lex.c.obj	e3c4f0187a111fc6

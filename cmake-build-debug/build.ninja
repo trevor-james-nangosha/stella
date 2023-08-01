@@ -67,6 +67,24 @@ build CMakeFiles/stella.dir/plain.c.obj: C_COMPILER__stella_Debug C$:/Users/HP/C
   OBJECT_DIR = CMakeFiles\stella.dir
   OBJECT_FILE_DIR = CMakeFiles\stella.dir
 
+build CMakeFiles/stella.dir/retval.c.obj: C_COMPILER__stella_Debug C$:/Users/HP/CLionProjects/stella/retval.c || cmake_object_order_depends_target_stella
+  DEP_FILE = CMakeFiles\stella.dir\retval.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\stella.dir
+  OBJECT_FILE_DIR = CMakeFiles\stella.dir
+
+build CMakeFiles/stella.dir/name.c.obj: C_COMPILER__stella_Debug C$:/Users/HP/CLionProjects/stella/name.c || cmake_object_order_depends_target_stella
+  DEP_FILE = CMakeFiles\stella.dir\name.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\stella.dir
+  OBJECT_FILE_DIR = CMakeFiles\stella.dir
+
+build CMakeFiles/stella.dir/args.c.obj: C_COMPILER__stella_Debug C$:/Users/HP/CLionProjects/stella/args.c || cmake_object_order_depends_target_stella
+  DEP_FILE = CMakeFiles\stella.dir\args.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\stella.dir
+  OBJECT_FILE_DIR = CMakeFiles\stella.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stella
@@ -75,7 +93,7 @@ build CMakeFiles/stella.dir/plain.c.obj: C_COMPILER__stella_Debug C$:/Users/HP/C
 #############################################
 # Link the executable stella.exe
 
-build stella.exe: C_EXECUTABLE_LINKER__stella_Debug CMakeFiles/stella.dir/main.c.obj CMakeFiles/stella.dir/lex.c.obj CMakeFiles/stella.dir/plain.c.obj
+build stella.exe: C_EXECUTABLE_LINKER__stella_Debug CMakeFiles/stella.dir/main.c.obj CMakeFiles/stella.dir/lex.c.obj CMakeFiles/stella.dir/plain.c.obj CMakeFiles/stella.dir/retval.c.obj CMakeFiles/stella.dir/name.c.obj CMakeFiles/stella.dir/args.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stella.dir
