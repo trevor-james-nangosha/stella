@@ -3,4 +3,4 @@ project(stella C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(stella main.c)
+add_executable(stella main.c lex.c lex.h plain.c)
